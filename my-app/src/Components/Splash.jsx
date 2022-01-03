@@ -37,8 +37,10 @@ const BackText = styled.div`
 const MainInfo = styled.div`
     width: 80%;
     height: 50vh;
-    position: relative;
+
     top: 25%;
+    padding-top: 30vh;
+   
 
     p{
         color: #777676;
