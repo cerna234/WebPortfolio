@@ -6,6 +6,10 @@ import About from '../Components/About';
 import Skills from '../Components/Skills'
 import Projects from '../Components/Projects';
 import Footer from '../Components/Footer';
+import Icons from '../Components/Icons';
+import { useState } from 'react/cjs/react.development';
+
+
 
 
 
@@ -16,16 +20,26 @@ height: 100%;
 background-color:rgb(202, 202, 202);
 margin-top: 0;
 
+
 `
 const Home = () => {
+
+
+
+
     return (
        <Container>
+       
+        <Icons/>
         <Splash/>
         <About/>
         <Skills/>
         <Projects/>
         <Footer/>
+   
+        
        </Container>
+       
     )
 }
 
