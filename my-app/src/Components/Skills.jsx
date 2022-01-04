@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {Desktop} from '../responsive'
+import Title from "./Title";
 
 const Container = styled.div`
     width: 100%;
@@ -14,7 +15,7 @@ const Skills = () =>{
 
     return(
         <Container>
-                Skills
+                 <Title title="SKILLS"/>
         </Container>
     )
 } 
