@@ -85,7 +85,7 @@ const About = () =>{
     return(
         
         <Container>
-              <Title title="ABOUT"/>
+            
               <Info>
                     <TopSection>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque autem tempora, excepturi voluptates nulla asperiores recusandae. Quos debitis necessitatibus eius veritatis doloremque, repellendus cumque. Delectus suscipit perferendis vel ratione!</p>
