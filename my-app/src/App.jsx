@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Home from './Pages/Home'
+import Projects from "./Components/Projects";
+import { Project } from "./Data";
 
 
 
@@ -18,6 +20,7 @@ const App = () => {
     <Container>
        
         <Home/>
+        
        
        
           

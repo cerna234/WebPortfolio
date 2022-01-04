@@ -9,7 +9,7 @@ const Container = styled.div`
     background-color: #242424;
 
     .skillsContainer{
-        display: grid;
+      
         display: grid;
         grid-template-columns: auto auto auto;
         padding: 10px;
@@ -17,8 +17,6 @@ const Container = styled.div`
         width: 80%;
         position: relative;
         left: 10%;
-
-        
 
 
         .GridItem{
@@ -55,10 +53,10 @@ const Skills = () =>{
 
     return(
         <Container>
-            <Title title="SKILLS"/>
+        
             
                <div className="skillsContainer">
-      {skills.map(function(d, idx){
+      {skills.map((d, idx) =>{
          return (
 
          <div className="GridItem" key={idx}>

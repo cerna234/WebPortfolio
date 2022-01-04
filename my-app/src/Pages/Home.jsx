@@ -7,6 +7,8 @@ import Skills from '../Components/Skills'
 import Projects from '../Components/Projects';
 import Footer from '../Components/Footer';
 import Icons from '../Components/Icons';
+import Title from '../Components/Title';
+import Button from '../Components/Button';
 
 
 
@@ -17,7 +19,7 @@ import Icons from '../Components/Icons';
 const Container = styled.div`
 width: 100%;
 height: 100%;
-background-color:rgb(202, 202, 202);
+background-color: #242424;
 margin-top: 0;
 
 
@@ -32,9 +34,13 @@ const Home = () => {
        
         <Icons/>
         <Splash/>
+        <Title title="ABOUT"/>
         <About/>
+        <Title title="SKILLS"/>
         <Skills/>
-        <Projects/>
+        <Title title="PROJECTS"/>
+        <Projects start="0" end="4"/>
+        
         <Footer/>
         
    
