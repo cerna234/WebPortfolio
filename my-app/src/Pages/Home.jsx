@@ -7,8 +7,7 @@ import Skills from '../Components/Skills'
 import Projects from '../Components/Projects';
 import Footer from '../Components/Footer';
 import Icons from '../Components/Icons';
-import { useState } from 'react/cjs/react.development';
-import Title from '../Components/Title'
+
 
 
 
