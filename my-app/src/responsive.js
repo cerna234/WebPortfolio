@@ -9,4 +9,12 @@ export const Desktop = (props) => {
     `;
 }
 
+export const Desktop2 = (props) => {
+    return css`
+        @media only screen and (min-width: 1200px){
+            ${props}
+        }
+    `;
+}
+
 
