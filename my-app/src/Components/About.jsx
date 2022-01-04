@@ -10,6 +10,9 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
 
+    
+
+
 `
 
 const Info = styled.div`
@@ -33,6 +36,10 @@ const TopSection = styled.div`
         position: relative;
         left: 10%;
         color: #a09f9f;
+        font-size: 18px;
+        position: relative;
+        bottom: 5vh;
+        ${Desktop({fontSize:"22px",width:"60%",left:"20%",bottom:"0vh"})}
     }
 
 `
@@ -48,9 +55,15 @@ const BottomSection = styled.div`
 
     h2{
         color: #E27357;
+        font-size: 20px;
+        position: relative;
+         ${Desktop({fontSize:"25px"})}
+       
     }
     p{
         color: #a09f9f;
+        font-size: 16px;
+        ${Desktop({fontSize:"20px"})}
     }
 
     div{
@@ -66,9 +79,11 @@ const BottomSection = styled.div`
 
 
 const About = () =>{
+    
 
 
     return(
+        
         <Container>
               <Title title="ABOUT"/>
               <Info>
@@ -89,8 +104,17 @@ const About = () =>{
                         </div>
                     </BottomSection>
               </Info>
+
+              
+
+             
+        
         </Container>
+
+        
     )
+
+    
 } 
 
 
