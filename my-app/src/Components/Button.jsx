@@ -28,11 +28,11 @@ p:hover{
 
 `
 
-const Button = () => {
+const Button = (props) => {
     return (
         <Container>
            <InnerContainer>
-               <p>HELLLO</p>
+               <p>{props.title}</p>
            </InnerContainer>
         </Container>
     )

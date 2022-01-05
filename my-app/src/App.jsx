@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Home from './Pages/Home'
-import Projects from "./Components/Projects";
-import { Project } from "./Data";
+import AllProjects from "./Pages/AllProjects";
 
 
 
@@ -21,7 +20,7 @@ const App = () => {
        
         <Home/>
         
-       
+       <AllProjects></AllProjects>
        
           
        

@@ -32,7 +32,7 @@ const Home = () => {
     return (
        <Container>
        
-        <Icons/>
+       
         <Splash/>
         <Title title="ABOUT"/>
         <About/>
@@ -40,6 +40,7 @@ const Home = () => {
         <Skills/>
         <Title title="PROJECTS"/>
         <Projects start="0" end="4"/>
+        <Button title="VIEW ALL"/>
         
         <Footer/>
         
