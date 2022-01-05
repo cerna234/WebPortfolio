@@ -36,11 +36,12 @@ const Home = () => {
         <Splash/>
         <Title title="ABOUT"/>
         <About/>
-        <Title title="SKILLS"/>
-        <Skills/>
         <Title title="PROJECTS"/>
         <Projects start="0" end="4"/>
         <Button title="VIEW ALL"/>
+        <Title title="SKILLS"/>
+        <Skills/>
+        
         
         <Footer/>
         
