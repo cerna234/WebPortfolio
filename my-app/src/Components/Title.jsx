@@ -13,6 +13,7 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: center;
 
+
     h2{
         
         display: flex;
@@ -21,7 +22,7 @@ const Container = styled.div`
         color: #7e7d7d20;
         font-size: 40px;
         padding-top: 10%;
-        ${Desktop({fontSize:"60px"})}
+        ${Desktop({fontSize:"70px"})}
     }
 
     h3{
@@ -33,8 +34,8 @@ const Container = styled.div`
         bottom: 26%;
         color: #E27357;
         font-size: 20px;
-        ${Desktop({fontSize:"30px",bottom:"37%"})}
-        ${Desktop2({bottom:"35%"})}
+        ${Desktop({fontSize:"40px",bottom:"37%"})}
+        ${Desktop2({bottom:"39%"})}
     
 
     }

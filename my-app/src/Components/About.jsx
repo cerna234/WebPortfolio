@@ -39,7 +39,7 @@ const TopSection = styled.div`
         font-size: 18px;
         position: relative;
         bottom: 5vh;
-        ${Desktop({fontSize:"22px",width:"60%",left:"20%",bottom:"0vh"})}
+        ${Desktop({fontSize:"30px",width:"60%",left:"20%",bottom:"0vh"})}
     }
 
 `
@@ -57,13 +57,13 @@ const BottomSection = styled.div`
         color: #E27357;
         font-size: 20px;
         position: relative;
-         ${Desktop({fontSize:"25px"})}
+         ${Desktop({fontSize:"32px"})}
        
     }
     p{
         color: #a09f9f;
         font-size: 16px;
-        ${Desktop({fontSize:"20px"})}
+        ${Desktop({fontSize:"27px"})}
     }
 
     div{

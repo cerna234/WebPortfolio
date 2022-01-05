@@ -12,7 +12,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    padding-top: 40px;
     
 
 `
@@ -47,6 +47,7 @@ const ProjectContainer = styled.div`
                padding-top: 20px;
                padding-bottom: 20px;
                font-size: 15px;
+               ${Desktop({fontSize:"20px"})};
                width: 50%;
                left: 25%;
                position: relative;
@@ -57,6 +58,7 @@ const ProjectContainer = styled.div`
                font-size: 18px;
                font-weight: bold;
                color: white;
+               ${Desktop({fontSize:"30px"})};
            }
 
            
@@ -69,6 +71,7 @@ const ProjectContainer = styled.div`
             position: relative;
             left: 10%;
             height: 200px;
+            ${Desktop({height:"500px"})};
             box-shadow: 5px 4px 7px #131313d8;
             background-size: cover;
             background-position: center;
@@ -89,6 +92,7 @@ const Links = styled.div`
     a{
         color: #a0a0a0;
         font-size: 20px;
+        ${Desktop({fontSize:"30px"})};
     }
 
     a:hover{
