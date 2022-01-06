@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {Desktop} from '../responsive'
 import Title from "./Title";
-import {Project,skills2} from '../Data'
+import {Project} from '../Data'
 import {FaGithub,FaCode} from "react-icons/fa"
 import { VscInspect} from "react-icons/vsc";
 
