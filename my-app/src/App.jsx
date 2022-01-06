@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Home from './Pages/Home'
 import AllProjects from "./Pages/AllProjects";
+import NavBar from "./Components/NavBar";
 
 
 
@@ -17,7 +18,8 @@ box-sizing: 0;
 const App = () => {
   return (
     <Container>
-       
+      
+        <NavBar/>
         <Home/>
         
      
