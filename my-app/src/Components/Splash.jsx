@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {Desktop} from '../responsive'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 
 
@@ -56,14 +57,19 @@ const MainInfo = styled.div`
     }
 
     h5{
-        color: #E27357;
+        
+
+        a{
+            color: #E27357;
         ${Desktop({ fontSize: "2rem"})}  
         font-size: 12px;
         
         display: inline;
+        text-decoration: none;
+        }
     }
-    h5:hover{
-        color: #962e15;
+    a:hover{
+        color: #7e1b03;
         transition: ease-in-out 0.1s;
         cursor: pointer;
 
@@ -86,7 +92,7 @@ const Splash = () => {
                <p>I'm a</p>
                <h1>SOFTWARE</h1>
                <h1>DEVELOPER</h1>
-               <h5>Contact Me</h5>
+               <h5><Link to="/contact">CONTACT ME </Link></h5>
            </MainInfo>
 
           

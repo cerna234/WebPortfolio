@@ -22,10 +22,15 @@ const Nav = styled.div`
 
 const Logo = styled.div`
 padding: 2rem 1rem;
-color: #eb7139;
-text-decoration: none;
+
+
 font-weight: bold;
 font-size: 25px;
+
+a{
+    color: #eb7139;
+    text-decoration: none;
+}
 
 @media (max-width:768px) {
     display: flex;
@@ -125,8 +130,10 @@ const NavBar = () => {
     return (
         
        <Nav>
-           <Logo href="#"> 
-                CERNA
+           
+           <Logo  
+           > 
+                <Link to="/">CERNA</Link>
            </Logo>
            <Hamburger onClick={() => setIsOpen(!isOpen) }>
                <GiHamburgerMenu/>
@@ -137,6 +144,7 @@ const NavBar = () => {
                 <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">Home</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/Projects">PROJECTS</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/contact">CONTACT</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/resume">RESUME</Link></MenuLinks>
                
 
               

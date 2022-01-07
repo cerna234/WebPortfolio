@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const Container = styled.div`
 width: 100%;
@@ -12,14 +13,16 @@ text-align: center;
 const InnerContainer = styled.div`
 width:100%;
 
-p{
+a{
 
     display: inline-block;
     padding: 20px;
     color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-p:hover{
+a:hover{
     border-bottom: 2px solid #E27357;
     color: #E27357;
     transition: ease-in-out 0.2s;
@@ -32,7 +35,7 @@ const Button = (props) => {
     return (
         <Container>
            <InnerContainer>
-               <p>{props.title}</p>
+               <Link to="/Projects">{props.title}</Link>
            </InnerContainer>
         </Container>
     )

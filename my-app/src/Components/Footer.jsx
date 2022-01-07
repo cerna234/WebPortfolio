@@ -74,8 +74,8 @@ const Footer = () =>{
               </Section>
               <Section>
                   <Icons>
-                      <a><FaGithub/></a>
-                      <a><FaLinkedinIn/></a>
+                      <a target="_blank" href="https://github.com/cerna234"><FaGithub/></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/miguel-cerna-0b133117b/"><FaLinkedinIn/></a>
                       
 
                   </Icons>
