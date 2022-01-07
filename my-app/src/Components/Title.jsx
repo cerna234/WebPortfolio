@@ -4,7 +4,6 @@ import {Desktop,Desktop2} from '../responsive'
 
 
 const Container = styled.div`
-
     width: 100%;
     height: 20vh;
  
@@ -12,8 +11,6 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
     h2{
         
         display: flex;
@@ -24,7 +21,6 @@ const Container = styled.div`
         padding-top: 10%;
         ${Desktop({fontSize:"70px"})}
     }
-
     h3{
       
         display: flex;
@@ -37,10 +33,8 @@ const Container = styled.div`
         ${Desktop({fontSize:"40px",bottom:"37%"})}
         ${Desktop2({bottom:"39%"})}
     
-
     }
    
-
 `
 
 const InnerContainer = styled.div`
