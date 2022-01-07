@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 import { GiHamburgerMenu } from "react-icons/gi";
 const Nav = styled.div`
@@ -65,13 +66,18 @@ position: relative;
 
 
 a{
-    color: blue;
-    background: red;
  
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1rem;
 }
 
 a:hover{
-    color: red;
+   
+        color: #ce5219;
+        border-bottom: solid 2px #ce5219 ;
+        transition: ease-in-out 0.5s;
+        padding: none;
 }
 
 @media (max-width:768px) {
@@ -98,18 +104,14 @@ const MenuLinks = styled.div`
  
     text-align: center;
     text-decoration: none;
-    color: white;
+ 
 
 
    
     
-    &:hover{
-        color: #ce5219;
-        border-bottom: solid 2px #ce5219 ;
-        transition: ease-in-out 0.3s;
-        padding: none;
-        
-    }
+  
+
+    
 `
 
 const NavBar = () => {
@@ -132,10 +134,12 @@ const NavBar = () => {
            <Menu isOpen={isOpen}>
                
                
-               <MenuLinks>HOME</MenuLinks>
-               <MenuLinks>ABOUT</MenuLinks>
-               <MenuLinks>PROJECTS</MenuLinks>
-               <MenuLinks>CONTACT</MenuLinks>
+                <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">Home</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/Projects">PROJECTS</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/contact">CONTACT</Link></MenuLinks>
+               
+
+              
            </Menu>
 
        </Nav>

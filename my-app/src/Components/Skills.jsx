@@ -38,6 +38,7 @@ const Container = styled.div`
                 font-size: 50px;
                 
             }
+        
         }
 
         

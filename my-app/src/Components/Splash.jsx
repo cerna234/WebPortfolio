@@ -25,7 +25,6 @@ const BackText = styled.div`
 
     h2{
         font-size: 200px;
-        transform: rotate(-0deg);
         position: absolute;
         top: 30vh;
         color: #5251511f;
@@ -37,7 +36,7 @@ const BackText = styled.div`
 const MainInfo = styled.div`
     width: 80%;
     height: 50vh;
-
+    z-index: 50;
     top: 25%;
     padding-top: 30vh;
    
@@ -84,7 +83,7 @@ const Splash = () => {
            </BackText>
 
            <MainInfo>
-               <p>i'm a</p>
+               <p>I'm a</p>
                <h1>SOFTWARE</h1>
                <h1>DEVELOPER</h1>
                <h5>Contact Me</h5>
