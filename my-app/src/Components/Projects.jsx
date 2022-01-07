@@ -28,12 +28,13 @@ const ProjectContainer = styled.div`
         width: 100%;
         height: 100%;
         position: relative;
-      
-
+        
+        
 
         .GridItem{
             position: relative;
             width: 100%;
+            position: relative;
             height: 60vh;
            font-size: 30px;
            text-align: center;
@@ -41,17 +42,21 @@ const ProjectContainer = styled.div`
            flex-direction: column;
            justify-content: space-evenly;
            text-align: center;
+           ${Desktop({width:"90%",left:"5",height:"70vh"})};
+
 
            p{
                color: #c5c4c4;
                padding-top: 20px;
                padding-bottom: 20px;
-               font-size: 15px;
-               ${Desktop({fontSize:"20px"})};
+               font-size: 10px;
+               ${Desktop({fontSize:"15px"})};
                width: 50%;
                left: 25%;
                position: relative;
                text-shadow: 5px 5px 5px #222;
+               
+             
            }
           
            .ProjectName{
@@ -124,7 +129,7 @@ const Projects = (props) =>{
         {Project.slice(props.start,props.end).map((d, idx) =>{
      return (
 
-     <div   key={idx}>
+     <div className="contain"  key={idx}>
          
         <div className="GridItem">
 
