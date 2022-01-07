@@ -18,11 +18,8 @@ box-sizing: 0;
 const App = () => {
   return (
     <Container>
-      
-        <NavBar/>
+      <NavBar/>
         <Home/>
-        
-     
        
           
        
