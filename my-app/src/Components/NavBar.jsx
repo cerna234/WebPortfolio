@@ -28,7 +28,8 @@ font-weight: bold;
 font-size: 25px;
 
 a{
-    color: #eb7139;
+    color: #E27357;
+    padding-left:  40px;
     text-decoration: none;
 }
 
@@ -79,8 +80,8 @@ a{
 
 a:hover{
    
-        color: #ce5219;
-        border-bottom: solid 2px #ce5219 ;
+        color:  #E27357;;
+        border-bottom: solid 2px #E27357 ;
         transition: ease-in-out 0.5s;
         padding: none;
 }
@@ -141,7 +142,7 @@ const NavBar = () => {
            <Menu isOpen={isOpen}>
                
                
-                <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">Home</Link></MenuLinks>
+                <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">HOME</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/Projects">PROJECTS</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/contact">CONTACT</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/resume">RESUME</Link></MenuLinks>
