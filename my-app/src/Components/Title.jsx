@@ -16,7 +16,7 @@ const Container = styled.div`
         display: flex;
         justify-content: center;
         width: 100%;
-        color: #7e7d7d20;
+        color: #7e7d7d11;
         font-size: 40px;
         padding-top: 10%;
         ${Desktop({fontSize:"70px"})}
@@ -29,6 +29,7 @@ const Container = styled.div`
         position: relative;
         bottom: 26%;
         color: #E27357;
+        
         font-size: 20px;
         ${Desktop({fontSize:"40px",bottom:"37%"})}
         ${Desktop2({bottom:"39%"})}
