@@ -1,43 +1,55 @@
 import React, { useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
+import {Desktop} from "../responsive"
+import Title from '../Components/Title'
 
  const Contain  = styled.div`
 
  width: 100%;
  height: 100vh;
-background: #3f3f3f;
+ background-color: #232323;
+ display: flex;
+
 
 
 
  form{
      padding-top: 30vh;
-     width: 80%;
+     width: 100%;
      
      height: 80%;
      position: relative;
-     left: 10%;
+
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
+    
+    border-radius: 10px;
+    padding: 20px;
+    top: 13vh;
+   
+     ${Desktop({width:"50%",left:"25%"})}
+     
+    
 
-     h2{
-         color: #ffffff;
-     }
-
+    
 
      input{
-         width: 45%;
+         width: 100%;
          height: 30px;
          padding: 10px;
-         background: #d3d3d388;
+         background: none;
          border: none;
-         box-shadow: 2px 3px 4px black;
+         border-bottom: solid 1px #c4c4c460;
 
         ::placeholder{
-            color: #f7f4f4;
+            color: #e6e4e45f;
             opacity: 100%;
-            text-shadow: 1px 1px 3px black;
+            font-weight: bold;
+            font-size: 13px;
+          
+
           
 
         }
@@ -47,14 +59,17 @@ background: #3f3f3f;
      textarea{
          height: 90px;
          padding: 10px;
-         background: #d3d3d388;
+         background: none;
          border: none;
-         box-shadow: 2px 3px 4px black;
+         border-bottom: solid 1px #c4c4c460;
 
          ::placeholder{
-            color: #f7f4f4;
+            color: #e6e4e45f;
             opacity: 100%;
-            text-shadow: 1px 1px 3px black;
+            font-weight: bold;
+            top: 80%;
+            position: relative;
+            font-size: 13px;
           
 
         }
@@ -69,18 +84,28 @@ background: #3f3f3f;
         color: white;
          width: 200px;
          border: none;
-         box-shadow: 3px 3px 4px black;
+         box-shadow: 2px 3px 4px #0707074c;
      }
+
+     
  }
  
  `
 
  const Details = styled.div`
  width: 100%;
+ height: 10vh;
  display: flex;
+ flex-direction: column;
  justify-content: space-between;
  `
 
+
+const Right = styled.div`
+
+    ${Desktop({width:"50",height:"100%",background:"red"})}
+
+`
 
 
 
@@ -118,7 +143,7 @@ function MyForm() {
     <Contain>
 
       <form onSubmit={handleOnSubmit}>
-          <h2>GET IN TOUCH</h2>
+          <Title title="CONTACT ME "/>
 
         <Details>
         <input id="name" type="text" name="name" placeholder="Name" required />
@@ -136,6 +161,11 @@ function MyForm() {
           </p>
         )}
       </form>
+      <Right>
+
+      </Right>
+
+    
     </Contain>
   );
 };

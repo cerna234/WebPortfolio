@@ -141,7 +141,7 @@ const NavBar = () => {
            <Menu isOpen={isOpen}>
                
                
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">Home</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">HOME</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/Projects">PROJECTS</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/contact">CONTACT</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/resume">RESUME</Link></MenuLinks>
