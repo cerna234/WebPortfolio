@@ -13,7 +13,6 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     padding-top: 40px;
-    
 
 `
 
@@ -80,6 +79,15 @@ const ProjectContainer = styled.div`
             box-shadow: 5px 4px 7px #131313d8;
             background-size: cover;
             background-position: center;
+
+
+            a{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: none;
+                right: 0%;
+            }
         }
         
 `
@@ -135,7 +143,7 @@ const Projects = (props) =>{
 
        
          <p className="ProjectName">{d.ProjectName}</p>
-         <div className="projectImage" style={{backgroundImage: "url(" + d.ProjectUrl + ")"}}></div>
+         <div className="projectImage" style={{backgroundImage: "url(" + d.ProjectUrl + ")"}}><a className="ImageLink" target="_blank" href={d.ProjectLiveUrl}></a></div>
          <p>{d.ProjectDescription}</p>
 
          <Links>
