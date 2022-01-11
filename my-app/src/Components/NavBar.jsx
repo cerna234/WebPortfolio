@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import {FaDownload } from "react-icons/fa";
 
 import { GiHamburgerMenu } from "react-icons/gi";
 const Nav = styled.div`
@@ -144,7 +145,7 @@ const NavBar = () => {
                <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">HOME</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/Projects">PROJECTS</Link></MenuLinks>
                <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/contact">CONTACT</Link></MenuLinks>
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/resume">RESUME</Link></MenuLinks>
+               <Link to="files/MiguelCernaResume.pdf" target="_blank" download> RESUME <FaDownload/> </Link>
                
 
               
