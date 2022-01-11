@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import styled from 'styled-components';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import {FaDownload } from "react-icons/fa";
+import MainColor from '../variables';
 
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Desktop } from '../responsive';
 const Nav = styled.div`
 
     display: flex;
@@ -23,13 +25,14 @@ const Nav = styled.div`
 
 const Logo = styled.div`
 padding: 2rem 1rem;
+${Desktop({padding:" 2rem 7rem"})};
 
 
 font-weight: bold;
 font-size: 25px;
 
 a{
-    color: #eb7139;
+    color: ${MainColor};
     text-decoration: none;
 }
 
@@ -80,8 +83,8 @@ a{
 
 a:hover{
    
-        color: #ce5219;
-        border-bottom: solid 2px #ce5219 ;
+        color: ${MainColor};
+        border-bottom: solid 2px ${MainColor}; ;
         transition: ease-in-out 0.5s;
         padding: none;
 }

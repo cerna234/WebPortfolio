@@ -4,6 +4,7 @@ import Title from "./Title";
 import {Project} from '../Data'
 import {FaGithub,FaCode} from "react-icons/fa"
 import { VscInspect} from "react-icons/vsc";
+import MainColor from "../variables";
 
 
 const Container = styled.div`
@@ -111,7 +112,7 @@ const Links = styled.div`
     }
 
     a:hover{
-        color: #E27357;
+        color: ${MainColor};
         transform: scale(1.1);
         transition: ease-in-out 0.2s;
     }
@@ -120,7 +121,6 @@ const Links = styled.div`
 const ViewALL = styled.div`
 width: 100%;
 height: 10vh;
-background-color: red;
 text-align: center;
 `
 

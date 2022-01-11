@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {Desktop,Horizontal} from '../responsive'
 import Title from "./Title";
+import MainColor from "../variables";
 
 const Container = styled.div`
     width: 100%;
@@ -55,7 +56,7 @@ const BottomSection = styled.div`
     ${Desktop({flexDirection:"row"})}
 
     h2{
-        color: #E27357;
+        color: ${MainColor};
         font-size: 20px;
         position: relative;
          ${Desktop({fontSize:"30px"})}

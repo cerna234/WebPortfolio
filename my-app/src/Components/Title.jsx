@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {Desktop,Desktop2,Horizontal} from '../responsive'
+import MainColor from '../variables'
 
 
 const Container = styled.div`
@@ -28,7 +29,7 @@ const Container = styled.div`
         width: 100%;
         position: relative;
         bottom: 26%;
-        color: #E27357;
+        color: ${MainColor};
         
         font-size: 20px;
         ${Desktop({fontSize:"40px",bottom:"37%"})}
