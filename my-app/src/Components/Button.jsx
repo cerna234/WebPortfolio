@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import MainColor from '../variables';
 
 const Container = styled.div`
 width: 100%;
@@ -23,8 +24,8 @@ a{
 }
 
 a:hover{
-    border-bottom: 2px solid #E27357;
-    color: #E27357;
+    border-bottom: 2px solid ${MainColor};;
+    color: ${MainColor};
     transition: ease-in-out 0.2s;
     cursor: pointer;
 }

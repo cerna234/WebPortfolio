@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {Desktop,Horizontal} from '../responsive'
 import {FaGithub,FaLinkedinIn} from "react-icons/fa"
+import MainColor from "../variables";
 
 const Container = styled.div`
     width: 100%;
@@ -28,7 +29,7 @@ h2{
     padding-top: 40px;
     font-size: 20px;
     ${Desktop({fontSize:"30px"})};
-    color: #E27357;
+    color: ${MainColor};
 }
 
 
@@ -69,7 +70,7 @@ const Footer = () =>{
         <Container>
               <Section>
                   <h2>
-                    MIGUEL CERNA
+                    CERNA
                   </h2>
 
               </Section>

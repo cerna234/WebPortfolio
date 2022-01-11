@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {Desktop} from '../responsive'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import MainColor from "../variables";
 
 
 
@@ -60,7 +61,7 @@ const MainInfo = styled.div`
         
 
         a{
-            color: #E27357;
+            color: ${MainColor};
         ${Desktop({ fontSize: "2rem"})}  
         font-size: 12px;
         
