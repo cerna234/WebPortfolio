@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Desktop,Desktop2} from '../responsive'
+import {Desktop,Desktop2,Horizontal} from '../responsive'
 
 
 const Container = styled.div`
     width: 100%;
     height: 20vh;
- 
+    ${Horizontal({height:"60vh"})};
     text-align: center;
     display: flex;
     flex-direction: column;

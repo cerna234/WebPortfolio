@@ -1,9 +1,10 @@
 import styled from "styled-components";
-import {Desktop} from '../responsive'
+import {Desktop,Horizontal} from '../responsive'
 import Title from "./Title";
 import {Project} from '../Data'
 import {FaGithub,FaCode} from "react-icons/fa"
 import { VscInspect} from "react-icons/vsc";
+
 
 const Container = styled.div`
     width: 100%;
@@ -35,6 +36,7 @@ const ProjectContainer = styled.div`
             width: 100%;
             position: relative;
             height: 60vh;
+            ${Horizontal({height:"200vh"})}
            font-size: 30px;
            text-align: center;
            display: flex;

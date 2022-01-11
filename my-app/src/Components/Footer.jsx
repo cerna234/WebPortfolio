@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import {Desktop} from '../responsive'
+import {Desktop,Horizontal} from '../responsive'
 import {FaGithub,FaLinkedinIn} from "react-icons/fa"
 
 const Container = styled.div`
     width: 100%;
     height: 15vh;
+    ${Horizontal({height:"30vh"})};
     background-color: #222222;
     display: flex;
     justify-content: space-evenly;
