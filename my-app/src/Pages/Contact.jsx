@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
-import {Desktop} from "../responsive"
+import {Desktop,Horizontal} from "../responsive"
 import Title from '../Components/Title'
 
  const Contain  = styled.div`
 
  width: 100%;
  height: 100vh;
+ ${Horizontal({height:"200vh"})};
  background-color: #232323;
  display: flex;
 

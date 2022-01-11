@@ -17,4 +17,12 @@ export const Desktop2 = (props) => {
     `;
 }
 
+export const Horizontal = (props) => {
+    return css`
+        @media only screen and (max-width: 768px) and (max-height: 500px){
+            ${props}
+        }
+    `;
+}
+
 

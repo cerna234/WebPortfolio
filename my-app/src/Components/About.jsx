@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Desktop} from '../responsive'
+import {Desktop,Horizontal} from '../responsive'
 import Title from "./Title";
 
 const Container = styled.div`
@@ -19,6 +19,7 @@ const Info = styled.div`
 padding-top: 10vh;
 width: 100%;
 height: 100vh;
+${Horizontal({height:"200vh"})};
 
     display: flex;
     flex-direction: column;
