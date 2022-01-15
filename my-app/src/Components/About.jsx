@@ -90,7 +90,7 @@ const About = () =>{
             
               <Info>
                     <TopSection>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque autem tempora, excepturi voluptates nulla asperiores recusandae. Quos debitis necessitatibus eius veritatis doloremque, repellendus cumque. Delectus suscipit perferendis vel ratione!</p>
+                        <p>Software Developer with years of experience bringing expertise in design, testing, and maintenance of software systems. Equipped with a diverse skill set and proficient in  various languages and systems. 3 years experience with various client work and real world projects </p>
                     </TopSection>
 
                     <BottomSection>
