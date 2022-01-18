@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/WebPortfoliov2.git/static/css/main.ffe34ec7.css",
-    "main.js": "/WebPortfoliov2.git/static/js/main.e21d3855.js",
-    "static/media/CielitoLindoWebsite.png": "/WebPortfoliov2.git/static/media/CielitoLindoWebsite.1d8892cee2d03356ca36.png",
-    "static/media/cfcsWebsite.png": "/WebPortfoliov2.git/static/media/cfcsWebsite.e5f3b993936af485f5d3.png",
-    "static/media/SimplyBlendedWebsite.png": "/WebPortfoliov2.git/static/media/SimplyBlendedWebsite.46e89ff797e11eac608d.png",
-    "static/media/KNTWebsite.png": "/WebPortfoliov2.git/static/media/KNTWebsite.89e4789af63839c2ebe1.png",
-    "static/media/RGATintShopWebsite.png": "/WebPortfoliov2.git/static/media/RGATintShopWebsite.a290f3e9cf6eb4b4466d.png",
-    "static/media/ISSApi.png": "/WebPortfoliov2.git/static/media/ISSApi.35fef922d1107efca6b7.png",
-    "static/media/RPSGame.png": "/WebPortfoliov2.git/static/media/RPSGame.ba57976586e6f8ce02cd.png",
-    "static/media/TTTGame.png": "/WebPortfoliov2.git/static/media/TTTGame.58cea419e936eb423942.png",
-    "index.html": "/WebPortfoliov2.git/index.html",
-    "main.ffe34ec7.css.map": "/WebPortfoliov2.git/static/css/main.ffe34ec7.css.map",
-    "main.e21d3855.js.map": "/WebPortfoliov2.git/static/js/main.e21d3855.js.map"
+    "main.css": "/WebPortfoliov2/static/css/main.ffe34ec7.css",
+    "main.js": "/WebPortfoliov2/static/js/main.cd447133.js",
+    "static/media/CielitoLindoWebsite.png": "/WebPortfoliov2/static/media/CielitoLindoWebsite.1d8892cee2d03356ca36.png",
+    "static/media/cfcsWebsite.png": "/WebPortfoliov2/static/media/cfcsWebsite.e5f3b993936af485f5d3.png",
+    "static/media/SimplyBlendedWebsite.png": "/WebPortfoliov2/static/media/SimplyBlendedWebsite.46e89ff797e11eac608d.png",
+    "static/media/KNTWebsite.png": "/WebPortfoliov2/static/media/KNTWebsite.89e4789af63839c2ebe1.png",
+    "static/media/RGATintShopWebsite.png": "/WebPortfoliov2/static/media/RGATintShopWebsite.a290f3e9cf6eb4b4466d.png",
+    "static/media/ISSApi.png": "/WebPortfoliov2/static/media/ISSApi.35fef922d1107efca6b7.png",
+    "static/media/RPSGame.png": "/WebPortfoliov2/static/media/RPSGame.ba57976586e6f8ce02cd.png",
+    "static/media/TTTGame.png": "/WebPortfoliov2/static/media/TTTGame.58cea419e936eb423942.png",
+    "index.html": "/WebPortfoliov2/index.html",
+    "main.ffe34ec7.css.map": "/WebPortfoliov2/static/css/main.ffe34ec7.css.map",
+    "main.cd447133.js.map": "/WebPortfoliov2/static/js/main.cd447133.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.e21d3855.js"
+    "static/js/main.cd447133.js"
   ]
 }
