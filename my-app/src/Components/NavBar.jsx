@@ -39,7 +39,7 @@ a{
 @media (max-width:768px) {
     display: flex;
     z-index: ${({isOpen}) => (isOpen ? "100" : "100")};
-    font-size: 20px;
+    font-size: 16px;
     
     
 }

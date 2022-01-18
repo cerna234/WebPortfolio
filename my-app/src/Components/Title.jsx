@@ -32,7 +32,7 @@ const Container = styled.div`
         color: ${MainColor};
         
         font-size: 20px;
-        ${Desktop({fontSize:"40px",bottom:"37%"})}
+        ${Desktop({fontSize:"35px",bottom:"32%"})}
         ${Desktop2({bottom:"39%"})}
     
     }
