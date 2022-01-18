@@ -5,7 +5,6 @@ import Splash from '../Components/Splash';
 import About from '../Components/About';
 import Skills from '../Components/Skills'
 import Projects from '../Components/Projects';
-import Footer from '../Components/Footer';
 import Icons from '../Components/Icons';
 import Title from '../Components/Title';
 import Button from '../Components/Button';
@@ -43,7 +42,7 @@ const Home = () => {
         <Skills/>
         
         
-        <Footer/>
+       
         
    
         
