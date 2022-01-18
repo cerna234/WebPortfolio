@@ -29,7 +29,7 @@ ${Desktop({padding:" 2rem 7rem"})};
 
 
 font-weight: bold;
-font-size: 16px;
+font-size: 30px;
 
 a{
     color: ${MainColor};
@@ -113,6 +113,7 @@ const MenuLinks = styled.div`
  
     text-align: center;
     text-decoration: none;
+    font-size: 16px;
  
 
 
