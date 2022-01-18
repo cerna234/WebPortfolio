@@ -114,8 +114,14 @@ const MenuLinks = styled.div`
     text-align: center;
     text-decoration: none;
     font-size: 16px;
- 
 
+    
+ 
+.Link{
+
+    font-size: 16px;
+
+}
 
    
     
@@ -146,10 +152,10 @@ const NavBar = () => {
            <Menu isOpen={isOpen}>
                
                
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link to="/">HOME</Link></MenuLinks>
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/Projects">PROJECTS</Link></MenuLinks>
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link to="/contact">CONTACT</Link></MenuLinks>
-               <Link to="files/MiguelCernaResume.pdf" target="_blank" download> RESUME <FaDownload/> </Link>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link className='Link' to="/">HOME</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/Projects">PROJECTS</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/contact">CONTACT</Link></MenuLinks>
+               <Link className='Link' to="files/MiguelCernaResume.pdf" target="_blank" download> RESUME <FaDownload/> </Link>
                
 
               
