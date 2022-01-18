@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/https//cerna234/WebPortfoliov2.git/static/css/main.ffe34ec7.css",
+    "main.js": "/https//cerna234/WebPortfoliov2.git/static/js/main.da224ab0.js",
+    "static/media/CielitoLindoWebsite.png": "/https//cerna234/WebPortfoliov2.git/static/media/CielitoLindoWebsite.1d8892cee2d03356ca36.png",
+    "static/media/cfcsWebsite.png": "/https//cerna234/WebPortfoliov2.git/static/media/cfcsWebsite.e5f3b993936af485f5d3.png",
+    "static/media/SimplyBlendedWebsite.png": "/https//cerna234/WebPortfoliov2.git/static/media/SimplyBlendedWebsite.46e89ff797e11eac608d.png",
+    "static/media/KNTWebsite.png": "/https//cerna234/WebPortfoliov2.git/static/media/KNTWebsite.89e4789af63839c2ebe1.png",
+    "static/media/RGATintShopWebsite.png": "/https//cerna234/WebPortfoliov2.git/static/media/RGATintShopWebsite.a290f3e9cf6eb4b4466d.png",
+    "static/media/ISSApi.png": "/https//cerna234/WebPortfoliov2.git/static/media/ISSApi.35fef922d1107efca6b7.png",
+    "static/media/RPSGame.png": "/https//cerna234/WebPortfoliov2.git/static/media/RPSGame.ba57976586e6f8ce02cd.png",
+    "static/media/TTTGame.png": "/https//cerna234/WebPortfoliov2.git/static/media/TTTGame.58cea419e936eb423942.png",
+    "index.html": "/https//cerna234/WebPortfoliov2.git/index.html",
+    "main.ffe34ec7.css.map": "/https//cerna234/WebPortfoliov2.git/static/css/main.ffe34ec7.css.map",
+    "main.da224ab0.js.map": "/https//cerna234/WebPortfoliov2.git/static/js/main.da224ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe34ec7.css",
+    "static/js/main.da224ab0.js"
+  ]
+}
