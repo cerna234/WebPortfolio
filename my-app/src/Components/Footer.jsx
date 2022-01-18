@@ -28,7 +28,7 @@ h2{
     position: relative;
     padding-top: 40px;
     font-size: 20px;
-    ${Desktop({fontSize:"30px"})};
+    ${Desktop({fontSize:"23px"})};
     color: ${MainColor};
 }
 

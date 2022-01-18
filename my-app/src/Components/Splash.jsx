@@ -46,13 +46,13 @@ const MainInfo = styled.div`
     p{
         color: #777676;
         font-size: 3rem;
-        ${Desktop({ fontSize: "4rem"})}   
+        ${Desktop({ fontSize: "3rem"})}   
     }
 
     h1{
         color: #f0eeee;
         font-size: 3rem;
-        ${Desktop({ fontSize: "6rem"})} 
+        ${Desktop({ fontSize: "4rem"})} 
        
 
     }
