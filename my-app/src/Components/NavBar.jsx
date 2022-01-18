@@ -29,7 +29,7 @@ ${Desktop({padding:" 2rem 7rem"})};
 
 
 font-weight: bold;
-font-size: 25px;
+font-size: 16px;
 
 a{
     color: ${MainColor};
