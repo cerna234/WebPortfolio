@@ -5,8 +5,9 @@ import NavBar from "./Components/NavBar";
 import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import React, { Component } from 'react';
+import ErrorPage from "./Pages/ErrorPage";
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import { Routes ,Route } from 'react-router-dom';
+import { Routes ,Route, Switch } from 'react-router-dom';
 
 
 
@@ -33,12 +34,17 @@ const App = () => {
        
           
           
-          <Routes >
-          <Route exact path='/' element={<Home/>} />
+       <Routes>
+       <Route exact path='/WebPortfoliov2' element={<Home/>} />
           <Route  path='/Projects' exact element={<AllProjects/>} />
           <Route  path='/contact' exact element={<Contact/>} />
-           
-          </Routes>
+          <Route path='*' element={<ErrorPage />} />
+       </Routes>
+          
+          
+         
+          
+      
       <Footer/>
       </Router>
        
