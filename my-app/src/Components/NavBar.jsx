@@ -36,7 +36,7 @@ a{
     text-decoration: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:1100px) {
     display: flex;
     z-index: ${({isOpen}) => (isOpen ? "100" : "100")};
     font-size: 16px;
@@ -57,7 +57,7 @@ display: none;
 
 
 
-@media (max-width:768px) {
+@media (max-width:1100px) {
     display: flex;
     z-index: ${({isOpen}) => (isOpen ? "100" : "100")};
     
@@ -89,7 +89,7 @@ a:hover{
         padding: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:1100px) {
     width: 100%;
     flex-direction: column;
 

@@ -20,7 +20,7 @@ const Container = styled.div`
         color: #7e7d7d11;
         font-size: 40px;
         padding-top: 10%;
-        ${Desktop({fontSize:"70px"})}
+        ${Desktop({fontSize:"50px"})}
     }
     h3{
       
@@ -32,8 +32,8 @@ const Container = styled.div`
         color: ${MainColor};
         
         font-size: 20px;
-        ${Desktop({fontSize:"35px",bottom:"32%"})}
-        ${Desktop2({bottom:"39%"})}
+        ${Desktop({fontSize:"30px",bottom:"30%"})}
+        ${Desktop2({bottom:"30%"})}
     
     }
    
