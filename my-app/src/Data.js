@@ -68,7 +68,7 @@ export const Project = [
         ProjectUrl:`${RGA}`,
         ProjectDescription:"Vehicle window tint Website created for client of a local Business Using Html,Css,and Javascript",
         ProjectLiveUrl:"https://rgatintshop.com/",
-        ProjectGithubLink:"",
+        ProjectGithubLink:"https://github.com/cerna234/RGSTintShop",
        
     },
     {
@@ -77,7 +77,7 @@ export const Project = [
         ProjectUrl:`${Clindo}`,
         ProjectDescription:" Mexican Restaurant Website created for client Using Html,Css,and Javascript",
         ProjectLiveUrl:"https://www.clindo.net/",
-        ProjectGithubLink:"",
+        ProjectGithubLink:"https://github.com/cerna234/cielitolindo",
         
     },
 
@@ -86,8 +86,8 @@ export const Project = [
         ProjectName:"CFCS",
         ProjectUrl:`${Cfcs}`,
         ProjectDescription:"Car Dealership website built for school project developed using the mern stack built by 4 developers which used git and github for version control  ",
-        ProjectLiveUrl:"",
-        ProjectGithubLink:"",
+        ProjectLiveUrl:"https://carsforcollegestudents.netlify.app/",
+        ProjectGithubLink:"https://github.com/brianx009/CFCS",
        
     },
     {
@@ -96,7 +96,7 @@ export const Project = [
         ProjectUrl:`${KNT}`,
         ProjectDescription:"Catering Website built for client built by 3 developers which was built using React in which git and github was used for version control and figma for the design",
         ProjectLiveUrl:"",
-        ProjectGithubLink:"",
+        ProjectGithubLink:"https://github.com/cerna234/kunna-tenshi-teppan",
 
         
     },
@@ -125,8 +125,8 @@ export const Project = [
         ProjectName:"Simply Blended",
         ProjectUrl:`${SB}`,
         ProjectDescription:"Mock website for local business using html css and javascript",
-        ProjectLiveUrl:"",
-        ProjectGithubLink:"",
+        ProjectLiveUrl:"https://cerna234.github.io/SimplyBlended/",
+        ProjectGithubLink:"https://github.com/cerna234/SimplyBlended",
 
         
     },
@@ -135,8 +135,8 @@ export const Project = [
         ProjectName:"Rock Paper Scissors game",
         ProjectUrl:`${RPSGame}`,
         ProjectDescription:"Rock paper Scissors game built using Html,css, and javascript",
-        ProjectLiveUrl:"",
-        ProjectGithubLink:"",
+        ProjectLiveUrl:"https://cerna234.github.io/rockPaperScissors/",
+        ProjectGithubLink:"https://github.com/cerna234/rockPaperScissors",
 
         
     }
