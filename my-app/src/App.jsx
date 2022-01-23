@@ -35,10 +35,11 @@ const App = () => {
           
           
        <Routes>
+       <Route path='*' element={<ErrorPage />} />
        <Route exact path='/WebPortfoliov2' element={<Home/>} />
           <Route  path='/Projects' exact element={<AllProjects/>} />
           <Route  path='/contact' exact element={<Contact/>} />
-          <Route path='*' element={<ErrorPage />} />
+          
        </Routes>
           
           
