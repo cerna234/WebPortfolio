@@ -27,7 +27,7 @@ const App = () => {
    
     
     
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL + '/'}>
 
       <NavBar/>
        
