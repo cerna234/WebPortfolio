@@ -144,7 +144,7 @@ const NavBar = () => {
            
            <Logo  
            > 
-                <Link to="/WebPortfoliov2">CERNA</Link>
+                <Link to="/">CERNA</Link>
            </Logo>
            <Hamburger onClick={() => setIsOpen(!isOpen) }>
                <GiHamburgerMenu/>
@@ -152,9 +152,9 @@ const NavBar = () => {
            <Menu isOpen={isOpen}>
                
                
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link className='Link' to="/WebPortfoliov2">HOME</Link></MenuLinks>
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/WebPortfoliov2/Projects">PROJECTS</Link></MenuLinks>
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/WebPortfoliov2/contact">CONTACT</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link className='Link' to="/">HOME</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/Projects">PROJECTS</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/contact">CONTACT</Link></MenuLinks>
                <Link className='Link' to="files/MiguelCernaResume.pdf" target="_blank" download> RESUME <FaDownload/> </Link>
                
 

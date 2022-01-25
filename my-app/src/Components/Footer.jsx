@@ -75,7 +75,7 @@ const Footer = () =>{
         <Container>
               <Section>
                   <h2>
-                  <Link to="/WebPortfoliov2">CERNA</Link>
+                  <Link to="/">CERNA</Link>
                   </h2>
 
               </Section>
