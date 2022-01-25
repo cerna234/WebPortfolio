@@ -153,8 +153,8 @@ const NavBar = () => {
                
                
                <MenuLinks onClick={() => setIsOpen(!isOpen)}><Link className='Link' to="/WebPortfoliov2">HOME</Link></MenuLinks>
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/Projects">PROJECTS</Link></MenuLinks>
-               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/contact">CONTACT</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/WebPortfoliov2/Projects">PROJECTS</Link></MenuLinks>
+               <MenuLinks onClick={() => setIsOpen(!isOpen)}> <Link className='Link' to="/WebPortfoliov2/contact">CONTACT</Link></MenuLinks>
                <Link className='Link' to="files/MiguelCernaResume.pdf" target="_blank" download> RESUME <FaDownload/> </Link>
                
 

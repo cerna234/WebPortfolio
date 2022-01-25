@@ -2,6 +2,7 @@ import styled from "styled-components";
 import {Desktop,Horizontal} from '../responsive'
 import {FaGithub,FaLinkedinIn} from "react-icons/fa"
 import MainColor from "../variables";
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const Container = styled.div`
     width: 100%;
@@ -32,6 +33,10 @@ h2{
     color: ${MainColor};
 }
 
+a{
+    color: ${MainColor};
+    text-decoration: none;
+}
 
 `
 
@@ -70,7 +75,7 @@ const Footer = () =>{
         <Container>
               <Section>
                   <h2>
-                    CERNA
+                  <Link to="/WebPortfoliov2">CERNA</Link>
                   </h2>
 
               </Section>
