@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebPortfoliov2/static/css/main.ffe34ec7.css",
-    "main.js": "/WebPortfoliov2/static/js/main.cf594e82.js",
+    "main.js": "/WebPortfoliov2/static/js/main.6e1fefe6.js",
     "static/media/CielitoLindoWebsite.png": "/WebPortfoliov2/static/media/CielitoLindoWebsite.1d8892cee2d03356ca36.png",
     "static/media/cfcsWebsite.png": "/WebPortfoliov2/static/media/cfcsWebsite.e5f3b993936af485f5d3.png",
     "static/media/SimplyBlendedWebsite.png": "/WebPortfoliov2/static/media/SimplyBlendedWebsite.46e89ff797e11eac608d.png",
@@ -12,10 +12,10 @@
     "static/media/TTTGame.png": "/WebPortfoliov2/static/media/TTTGame.58cea419e936eb423942.png",
     "index.html": "/WebPortfoliov2/index.html",
     "main.ffe34ec7.css.map": "/WebPortfoliov2/static/css/main.ffe34ec7.css.map",
-    "main.cf594e82.js.map": "/WebPortfoliov2/static/js/main.cf594e82.js.map"
+    "main.6e1fefe6.js.map": "/WebPortfoliov2/static/js/main.6e1fefe6.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.cf594e82.js"
+    "static/js/main.6e1fefe6.js"
   ]
 }
