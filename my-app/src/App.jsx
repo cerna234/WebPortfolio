@@ -27,7 +27,7 @@ const App = () => {
    
     
     
-      <Router basename="/WebPortfoliov2">
+      <Router basename={process.env.PUBLIC_URL + '/'}>
 
       <NavBar/>
        
@@ -36,7 +36,7 @@ const App = () => {
           
        <Routes>
        <Route path='*' element={<ErrorPage />} />
-       <Route exact path='/' element={<Home/>} />
+       <Route exact path='/WebPortfoliov2' element={<Home/>} />
           <Route  path='/Projects' exact element={<AllProjects/>} />
           <Route  path='/contact' exact element={<Contact/>} />
           
