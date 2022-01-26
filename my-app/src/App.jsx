@@ -6,8 +6,8 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import React, { Component } from 'react';
 import ErrorPage from "./Pages/ErrorPage";
-import { Router as Router, Link } from 'react-router-dom';
-import { Routes ,Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 
 
@@ -27,20 +27,21 @@ const App = () => {
    
     
     
-      <Router basename={process.env.PUBLIC_URL + '/'}>
+      <Router basename="WebPortfoliov2">
 
       <NavBar/>
        
        
           
           
-       <Routes>
-       <Route path='*' element={<ErrorPage />} />
-       <Route exact path='/WebPortfoliov2' element={<Home/>} />
-          <Route  path='/WebPortfoliov2/Projects' exact element={<AllProjects/>} />
-          <Route  path='/WebPortfoliov2/contact' exact element={<Contact/>} />
-          
-       </Routes>
+      
+
+       <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/Projects" component={AllProjects} />
+        <Route path="/contact" component={Contact} />
+        <Route path="*" component={ErrorPage} />
+      </Switch>
           
           
          
