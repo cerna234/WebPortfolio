@@ -6,7 +6,7 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import React, { Component } from 'react';
 import ErrorPage from "./Pages/ErrorPage";
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Router as Router, Link } from 'react-router-dom';
 import { Routes ,Route, Switch } from 'react-router-dom';
 
 
@@ -27,7 +27,7 @@ const App = () => {
    
     
     
-      <Router basename={process.env.PUBLIC_URL + '/'}>
+      <Router basename="/WebPortfoliov2">
 
       <NavBar/>
        
