@@ -27,7 +27,8 @@ const App = () => {
    
     
     
-      <Router basename="WebPortfoliov2">
+      <Router basename="/WebPortfoliov2">
+        
 
       <NavBar/>
        
