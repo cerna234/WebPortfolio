@@ -145,7 +145,7 @@ const Projects = (props) =>{
 
        
          <p className="ProjectName">{d.ProjectName}</p>
-         <div className="projectImage" style={{backgroundImage: "url(" + d.ProjectUrl + ")"}}><a className="ImageLink" target="_blank" href={d.ProjectLiveUrl}></a></div>
+         <div alt={d.alt} className="projectImage" style={{backgroundImage: "url(" + d.ProjectUrl + ")"}}><a className="ImageLink" target="_blank" href={d.ProjectLiveUrl}></a></div>
          <p>{d.ProjectDescription}</p>
 
          <Links>
