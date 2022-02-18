@@ -143,12 +143,16 @@ function MyForm() {
   return (
     <Contain>
 
-      <form onSubmit={handleOnSubmit}>
+      <form onSubmit={handleOnSubmit} enctype="multipart/form-data">
           <Title title="CONTACT ME "/>
 
         <Details>
         <input id="name" type="text" name="name" placeholder="Name" required />
         <input id="email" type="email" name="email" placeholder="Email" required />
+        
+        
+        <input type="file" name="attachment" accept="image/png, image/jpeg"></input>
+        
         </Details>
      
         

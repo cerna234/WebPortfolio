@@ -69,6 +69,7 @@ export const Project = [
         ProjectDescription:"Vehicle window tint Website created for client of a local Business Using Html,Css,and Javascript",
         ProjectLiveUrl:"https://rgatintshop.com/",
         ProjectGithubLink:"https://github.com/cerna234/RGSTintShop",
+        alt:"Preview of RGA Tint Shop Website",
        
     },
     {
@@ -78,6 +79,7 @@ export const Project = [
         ProjectDescription:" Mexican Restaurant Website created for client Using Html,Css,and Javascript",
         ProjectLiveUrl:"https://www.clindo.net/",
         ProjectGithubLink:"https://github.com/cerna234/cielitolindo",
+        alt:"Preview of Cielito Lindo Website",
         
     },
 
@@ -88,6 +90,7 @@ export const Project = [
         ProjectDescription:"Car Dealership website built for school project developed using the mern stack built by 4 developers which used git and github for version control  ",
         ProjectLiveUrl:"https://carsforcollegestudents.netlify.app/",
         ProjectGithubLink:"https://github.com/brianx009/CFCS",
+        alt:"Preview of CFCS Website",
        
     },
     {
@@ -97,6 +100,7 @@ export const Project = [
         ProjectDescription:"Catering Website built for client built by 3 developers which was built using React in which git and github was used for version control and figma for the design",
         ProjectLiveUrl:"",
         ProjectGithubLink:"https://github.com/cerna234/kunna-tenshi-teppan",
+        alt:"Preview of Kunna-Tenshi_Teppan Website",
 
         
     },
@@ -107,6 +111,7 @@ export const Project = [
         ProjectDescription:"Website that tracks the Internation Space Station using an API which updates every 5 seconds",
         ProjectLiveUrl:"https://cerna234.github.io/ISS-Api/",
         ProjectGithubLink:"https://github.com/cerna234/ISS-Api",
+        alt:"Preview of ISS-API Program",
 
         
     },
@@ -117,6 +122,7 @@ export const Project = [
         ProjectDescription:"Simple game of tic tac toe built with html,css, and javascript",
         ProjectLiveUrl:"https://cerna234.github.io/Tic-Tac-Toe/",
         ProjectGithubLink:"https://github.com/cerna234/Tic-Tac-Toe",
+        alt:"Preview of Tic Tac toe Program",
         
 
         
@@ -128,6 +134,7 @@ export const Project = [
         ProjectDescription:"Mock website for local business using html css and javascript",
         ProjectLiveUrl:"https://cerna234.github.io/SimplyBlended/",
         ProjectGithubLink:"https://github.com/cerna234/SimplyBlended",
+        alt:"Preview of Simply Blended Website",
 
         
     },
@@ -138,6 +145,7 @@ export const Project = [
         ProjectDescription:"Rock paper Scissors game built using Html,css, and javascript",
         ProjectLiveUrl:"https://cerna234.github.io/rockPaperScissors/",
         ProjectGithubLink:"https://github.com/cerna234/rockPaperScissors",
+        alt:"Preview of Rock paper Scissors Program",
 
         
     }
