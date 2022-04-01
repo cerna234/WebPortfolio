@@ -97,7 +97,7 @@ export const Project = [
 
         ProjectName:"kunna-tenshi-teppan",
         ProjectUrl:`${KNT}`,
-        ProjectDescription:"Catering Website built for client built by 3 developers which was built using React in which git and github was used for version control and figma for the design",
+        ProjectDescription:"Catering website for client built by 3 developers which was developed using React, Styled-Components, Jsx. Git and Github was used for version control and Figma was used for design.",
         ProjectLiveUrl:"",
         ProjectGithubLink:"https://github.com/cerna234/kunna-tenshi-teppan",
         alt:"Preview of Kunna-Tenshi_Teppan Website",
