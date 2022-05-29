@@ -9,6 +9,7 @@ import issApi from './Images/ISSApi.png'
 import TTTgame from './Images/TTTGame.png'
 import RPSGame from './Images/RPSGame.png'
 import SB from './Images/SimplyBlendedWebsite.png'
+import BC from "./Images/BitcoinConverter.png"
 
 export const skills = [
     {
@@ -73,15 +74,14 @@ export const Project = [
        
     },
     {
-
-        ProjectName:"Cielito Lindo",
-        ProjectUrl:`${Clindo}`,
-        ProjectDescription:" Mexican Restaurant Website created for client Using Html,Css,and Javascript",
-        ProjectLiveUrl:"https://www.clindo.net/",
-        ProjectGithubLink:"https://github.com/cerna234/cielitolindo",
-        alt:"Preview of Cielito Lindo Website",
-        
+        ProjectName:"Bitcoin Converter",
+        ProjectUrl:`${BC}`,
+        ProjectDescription:"Program that converts USD, GBP, EUR to latest conversion of Bitcoin using the Coindex API. Used Html, css, Javascript, Axios ",
+        ProjectLiveUrl:"https://cerna234.github.io/BitcoinConverter/",
+        ProjectGithubLink:"https://github.com/cerna234/BitcoinConverter",
+        alt:"Preview of Bitcoin Converter",
     },
+   
 
     {
 
@@ -101,6 +101,17 @@ export const Project = [
         ProjectLiveUrl:"",
         ProjectGithubLink:"https://github.com/cerna234/kunna-tenshi-teppan",
         alt:"Preview of Kunna-Tenshi_Teppan Website",
+
+        
+    },
+    {
+
+        ProjectName:"Cielito Lindo",
+        ProjectUrl:`${Clindo}`,
+        ProjectDescription:"Mexican Restaurant Website created for client Using Html,Css,and Javascript",
+        ProjectLiveUrl:"https://www.clindo.net/",
+        ProjectGithubLink:"https://github.com/cerna234/cielitolindo",
+        alt:"Preview of Cielito Lindo Website",
 
         
     },
@@ -149,6 +160,8 @@ export const Project = [
 
         
     }
+
+    
 
 
     

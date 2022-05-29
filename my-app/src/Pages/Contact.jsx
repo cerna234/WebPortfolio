@@ -151,7 +151,7 @@ function MyForm() {
         <input id="email" type="email" name="email" placeholder="Email" required />
         
         
-        <input type="file" name="attachment" accept="image/png, image/jpeg"></input>
+  
         
         </Details>
      
