@@ -10,6 +10,8 @@ import TTTgame from './Images/TTTGame.png'
 import RPSGame from './Images/RPSGame.png'
 import SB from './Images/SimplyBlendedWebsite.png'
 import BC from "./Images/BitcoinConverter.png"
+import Game from "./Images/SeniorProject.png"
+import Amplify from "./Images/AmplifyWebApp.png"
 
 export const skills = [
     {
@@ -106,6 +108,15 @@ export const Project = [
     },
     {
 
+        ProjectName:"3D Unity Game",
+        ProjectUrl:`${Game}`,
+        ProjectDescription:"3D Unity group project built by 4 developers for senior project. Project was built using Unity, C#, Blender",
+        alt:"Preview of Amplify Web app",
+
+        
+    },
+    {
+
         ProjectName:"Cielito Lindo",
         ProjectUrl:`${Clindo}`,
         ProjectDescription:"Mexican Restaurant Website created for client Using Html,Css,and Javascript",
@@ -123,6 +134,17 @@ export const Project = [
         ProjectLiveUrl:"https://cerna234.github.io/ISS-Api/",
         ProjectGithubLink:"https://github.com/cerna234/ISS-Api",
         alt:"Preview of ISS-API Program",
+
+        
+    },
+    {
+
+        ProjectName:"Amplify Web App",
+        ProjectUrl:`${Amplify}`,
+        ProjectDescription:"CSUSB Hackathon Webapp built using React.js and AWS Amplify",
+        ProjectLiveUrl:"https://main.d2ap8z0pq8e7se.amplifyapp.com",
+        ProjectGithubLink:"https://github.com/Paink64/Chimera",
+        alt:"Preview of Amplify Web app",
 
         
     },
@@ -149,17 +171,7 @@ export const Project = [
 
         
     },
-    {
 
-        ProjectName:"Rock Paper Scissors game",
-        ProjectUrl:`${RPSGame}`,
-        ProjectDescription:"Rock paper Scissors game built using Html,css, and javascript",
-        ProjectLiveUrl:"https://cerna234.github.io/rockPaperScissors/",
-        ProjectGithubLink:"https://github.com/cerna234/rockPaperScissors",
-        alt:"Preview of Rock paper Scissors Program",
-
-        
-    }
 
     
 

@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import React, { Component } from 'react';
 import ErrorPage from "./Pages/ErrorPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
 
@@ -35,7 +36,9 @@ const App = () => {
        
           
           
-      
+      <ScrollToTop>
+
+    
 
        <Switch>
         <Route path="/" exact component={Home} />
@@ -44,7 +47,7 @@ const App = () => {
         <Route path="*" component={ErrorPage} />
       </Switch>
           
-          
+      </ScrollToTop>
          
           
       
