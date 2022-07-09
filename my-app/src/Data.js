@@ -12,6 +12,7 @@ import SB from './Images/SimplyBlendedWebsite.png'
 import BC from "./Images/BitcoinConverter.png"
 import Game from "./Images/SeniorProject.png"
 import Amplify from "./Images/AmplifyWebApp.png"
+import F1 from "./Images/f1Website.png"
 
 export const skills = [
     {
@@ -67,12 +68,12 @@ export const skills = [
 export const Project = [
     {
 
-        ProjectName:"RGA Tint Shop",
-        ProjectUrl:`${RGA}`,
-        ProjectDescription:"Vehicle window tint Website created for client of a local Business Using Html,Css,and Javascript",
-        ProjectLiveUrl:"https://rgatintshop.com/",
-        ProjectGithubLink:"https://github.com/cerna234/RGSTintShop",
-        alt:"Preview of RGA Tint Shop Website",
+        ProjectName:"Formula 1 Website",
+        ProjectUrl:`${F1}`,
+        ProjectDescription:"Full Stack Formula 1 Website made with Node.js, React.js, Express.js, mysql. FrontEnd hosted on Netlifly, Backend hosted on heroku",
+        ProjectLiveUrl:"https://chipper-clafoutis-973659.netlify.app/",
+        ProjectGithubLink:"https://github.com/cerna234/F1Website",
+        alt:"Preview of f1 Website",
        
     },
     {
@@ -83,6 +84,26 @@ export const Project = [
         ProjectGithubLink:"https://github.com/cerna234/BitcoinConverter",
         alt:"Preview of Bitcoin Converter",
     },
+    {
+
+        ProjectName:"3D Unity Game",
+        ProjectUrl:`${Game}`,
+        ProjectDescription:"3D Unity group project built by 4 developers for senior project. Project was built using Unity, C#, Blender",
+        alt:"Preview of 3D unity Game",
+
+        
+    },
+    {
+
+        ProjectName:"RGA Tint Shop",
+        ProjectUrl:`${RGA}`,
+        ProjectDescription:"Vehicle window tint Website created for client of a local Business Using Html,Css,and Javascript",
+        ProjectLiveUrl:"https://rgatintshop.com/",
+        ProjectGithubLink:"https://github.com/cerna234/RGSTintShop",
+        alt:"Preview of RGA Tint Shop Website",
+       
+    },
+    
    
 
     {
@@ -106,15 +127,7 @@ export const Project = [
 
         
     },
-    {
-
-        ProjectName:"3D Unity Game",
-        ProjectUrl:`${Game}`,
-        ProjectDescription:"3D Unity group project built by 4 developers for senior project. Project was built using Unity, C#, Blender",
-        alt:"Preview of Amplify Web app",
-
-        
-    },
+    
     {
 
         ProjectName:"Cielito Lindo",
