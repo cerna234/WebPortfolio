@@ -39,12 +39,14 @@ const ProjectContainer = styled.div`
             height: 60vh;
             ${Horizontal({height:"200vh"})}
            font-size: 30px;
-           text-align: center;
+           
            display: flex;
            flex-direction: column;
-           justify-content: space-evenly;
-           text-align: center;
-           ${Desktop({width:"90%",left:"5",height:"70vh"})};
+           
+           align-items: center;
+           
+           
+           ${Desktop({width:"90%",height:"70vh"})};
 
 
            p{
@@ -53,8 +55,9 @@ const ProjectContainer = styled.div`
                padding-bottom: 20px;
                font-size: 10px;
                ${Desktop({fontSize:"15px"})};
-               width: 50%;
-               left: 25%;
+               width: 80%;
+               text-align: center;
+              
                position: relative;
                text-shadow: 5px 5px 5px #222;
                
@@ -69,6 +72,8 @@ const ProjectContainer = styled.div`
            }
 
            
+
+           
         }
 
        
@@ -76,7 +81,7 @@ const ProjectContainer = styled.div`
         .projectImage{
             width: 80%;
             position: relative;
-            left: 10%;
+        
             height: 200px;
             ${Desktop({height:"500px"})};
             box-shadow: 5px 4px 7px #131313d8;
@@ -103,7 +108,7 @@ const Links = styled.div`
     justify-content: space-evenly;
     width: 60%;
     position: relative;
-    left: 20%;
+   
 
     a{
         color: #a0a0a0;
