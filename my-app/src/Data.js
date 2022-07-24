@@ -71,7 +71,7 @@ export const Project = [
 
         ProjectName:"NASA API WEB APP",
         ProjectUrl:`${NASAWEBAPP}`,
-        ProjectDescription:"Website where users can view over 10,000 Objects near earth and view object id, name, magnitude, estimated diameter, and threat indicator. Users can view Images taken by rovers on mars and query data by Rover Camera Using NASA opensource Api's",
+        ProjectDescription:" Website where users can view over 10,000 Objects near earth and view object id, name, magnitude, estimated diameter, and threat indicator. Users can view Images taken by rovers on mars and query data by Rover Camera Using NASA opensource Api's",
         ProjectLiveUrl:"https://admirable-meringue-335678.netlify.app/",
         ProjectGithubLink:"https://github.com/cerna234/NasaApiWebApp",
         alt:"Preview of Nasa Api Web App",
