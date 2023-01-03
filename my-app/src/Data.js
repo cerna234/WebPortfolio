@@ -109,7 +109,7 @@ export const Project = [
         ProjectName:"RGA Tint Shop",
         ProjectUrl:`${RGA}`,
         ProjectDescription:"Vehicle window tint Website created for client of a local Business Using Html,Css,and Javascript",
-        ProjectLiveUrl:"https://rgatintshop.com/",
+        ProjectLiveUrl:"https://cerna234.github.io/RGSTintShop/",
         ProjectGithubLink:"https://github.com/cerna234/RGSTintShop",
         alt:"Preview of RGA Tint Shop Website",
        
