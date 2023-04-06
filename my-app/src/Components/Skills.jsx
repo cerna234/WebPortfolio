@@ -8,6 +8,7 @@ const Container = styled.div`
     height: 100vh;
     ${Horizontal({height:"200vh"})};
     background-color: #242424;
+    min-height:700px;
 
     .skillsContainer{
       

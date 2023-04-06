@@ -14,11 +14,13 @@ const Container = styled.div`
     margin-top: 0;
     display: flex;
     justify-content: center;
+    min-height:600px;
 `
 
 const BackText = styled.div`
     width: 100%;
     height: 100vh;
+    min-height:600px;
     margin-top: 0;
     
     position: absolute;

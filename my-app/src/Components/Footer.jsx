@@ -10,7 +10,10 @@ const Container = styled.div`
     ${Horizontal({height:"30vh"})};
     background-color: #222222;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    
+    min-height:300px;
 
 `
 
@@ -21,10 +24,13 @@ height: 100%;
 
 
 
+
+
+
+
 h2{
 
-    width: 100%;
-    height: 100%;
+   
     text-align: center;
     position: relative;
     padding-top: 40px;
@@ -47,6 +53,7 @@ const Icons = styled.div`
     position: relative;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     
     font-size: 20px;
     ${Desktop({fontSize:"30px"})};
@@ -65,6 +72,15 @@ const Icons = styled.div`
 
 `
 
+const LogoSection = styled.div`
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+`
+
 
 
 
@@ -73,12 +89,20 @@ const Footer = () =>{
 
     return(
         <Container>
-              <Section>
-                  <h2>
-                  <Link to="/">CERNA</Link>
-                  </h2>
+        
+                <Section>
+                    <LogoSection>
+                        <h2>
+                        <Link to="/">CERNA</Link>
+                        </h2>
 
-              </Section>
+                    </LogoSection>
+                    
+
+                </Section>
+
+           
+              
               <Section>
                   <Icons>
                       <a target="_blank" href="https://github.com/cerna234"><FaGithub/></a>
