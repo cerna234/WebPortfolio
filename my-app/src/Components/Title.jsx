@@ -6,55 +6,36 @@ import MainColor from '../variables'
 
 const Container = styled.div`
     width: 100%;
-    height: 20vh;
-    ${Horizontal({height:"60vh"})};
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    h2{
-        
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        color: #7e7d7d11;
-        font-size: 40px;
-        padding-top: 10%;
-        ${Desktop({fontSize:"50px"})}
-    }
+    height: 10vh;
+    min-height:100px;
+    ${Desktop({minHeight:"200px"})}
+    
+   
     h3{
       
         display: flex;
         justify-content: center;
-        width: 100%;
-        position: relative;
-        bottom: 26%;
         color: ${MainColor};
-        
+        text-shadow:5px 5px 10px #191919;
         font-size: 20px;
         ${Desktop({fontSize:"30px",bottom:"30%"})}
+    
         ${Desktop2({bottom:"30%"})}
     
     }
    
 `
 
-const InnerContainer = styled.div`
-    width: 100%;
-    height: 100%;
- 
-`
+
 
 
 const Title = (props) => {
     return (
         <Container>
        
-            <InnerContainer>
-
-            <h2>{props.title}</h2>
+            
             <h3>{props.title}</h3>
-            </InnerContainer>
+        
         </Container>
     )
 }

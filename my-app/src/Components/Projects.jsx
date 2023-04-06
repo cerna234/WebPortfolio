@@ -15,6 +15,7 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     padding-top: 40px;
+    min-height:600px
 
 `
 
