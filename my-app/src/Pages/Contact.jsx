@@ -12,6 +12,7 @@ import Title from '../Components/Title'
  background-color: #232323;
  display: flex;
 
+ min-height:600px;
 
 
 
