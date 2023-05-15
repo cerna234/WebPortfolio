@@ -72,7 +72,7 @@ export const Project = [
         ProjectName:"NASA API WEB APP",
         ProjectUrl:`${NASAWEBAPP}`,
         ProjectDescription:" Website where users can view over 10,000 Objects near earth and view object id, name, magnitude, estimated diameter, and threat indicator. Users can view Images taken by rovers on mars and query data by Rover Camera Using NASA opensource Api's",
-        ProjectLiveUrl:"https://admirable-meringue-335678.netlify.app/",
+        ProjectLiveUrl:"https://mcnasadata.netlify.app/",
         ProjectGithubLink:"https://github.com/cerna234/NasaApiWebApp",
         alt:"Preview of Nasa Api Web App",
        
@@ -82,7 +82,7 @@ export const Project = [
         ProjectName:"Formula 1 Website",
         ProjectUrl:`${F1}`,
         ProjectDescription:"Full Stack Formula 1 Website made with Node.js, React.js, Express.js, mysql. FrontEnd hosted on Netlifly, Backend hosted on heroku",
-        ProjectLiveUrl:"https://chipper-clafoutis-973659.netlify.app/",
+        ProjectLiveUrl:"https://mcf1website.netlify.app/",
         ProjectGithubLink:"https://github.com/cerna234/F1Website",
         alt:"Preview of f1 Website",
        
