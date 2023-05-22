@@ -141,7 +141,7 @@ export const Project = [
         ProjectName:"Cielito Lindo",
         ProjectUrl:`${Clindo}`,
         ProjectDescription:"Mexican Restaurant Website created for client Using Html,Css,and Javascript",
-        ProjectLiveUrl:"https://www.clindo.net/",
+        ProjectLiveUrl:"https://clindo.net/",
         ProjectGithubLink:"https://github.com/cerna234/cielitolindo",
         alt:"Preview of Cielito Lindo Website",
 
