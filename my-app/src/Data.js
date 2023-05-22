@@ -10,10 +10,12 @@ import TTTgame from './Images/TTTGame.png'
 import RPSGame from './Images/RPSGame.png'
 import SB from './Images/SimplyBlendedWebsite.png'
 import BC from "./Images/BitcoinConverter.png"
+import socialMedia from "./Images/SocialMediaSiteImage.png"
 import Game from "./Images/SeniorProject.png"
 import Amplify from "./Images/AmplifyWebApp.png"
 import F1 from "./Images/f1Website.png"
 import NASAWEBAPP from "./Images/NasaAPI.png"
+import Vertex from "./Images/Vertex.png"
 
 export const skills = [
     {
@@ -69,6 +71,26 @@ export const skills = [
 export const Project = [
     {
 
+        ProjectName:"Full Stack Social Media WebApp",
+        ProjectUrl:`${socialMedia}`,
+        ProjectDescription:"Dynamic social media platform created using React, Express, and Node.js.Allows users to easily sign up, establish their unique profiles, and create posts to share. The site also features a trending page, highlighting the most popular posts among the user base.The social media site leverages the robust Amazon S3 bucket service to facilitate seamless image uploading.",
+        ProjectLiveUrl:"https://mcsocialmedia.netlify.app/",
+        ProjectGithubLink:"https://github.com/cerna234/socialMediaFE",
+        alt:"Preview of Social media Webapp",
+       
+    },
+    {
+
+        ProjectName:"Vertex Architects",
+        ProjectUrl:`${Vertex}`,
+        ProjectDescription:"This website leverages Next.js and Sass to create a powerful and visually appealing experience. Next.js provides fast rendering and efficient routing, while Sass enhances styling with its advanced features. The combination of these technologies results in a dynamic and engaging website.",
+        ProjectLiveUrl:"https://tone-electric-uifl-git-portfoliodemo-cerna234.vercel.app/",
+        ProjectGithubLink:"https://github.com/cerna234/ToneElectric/tree/PortfolioDemo",
+        alt:"Preview of Social media Webapp",
+       
+    },
+    {
+
         ProjectName:"NASA API WEB APP",
         ProjectUrl:`${NASAWEBAPP}`,
         ProjectDescription:" Website where users can view over 10,000 Objects near earth and view object id, name, magnitude, estimated diameter, and threat indicator. Users can view Images taken by rovers on mars and query data by Rover Camera Using NASA opensource Api's",
@@ -95,61 +117,14 @@ export const Project = [
         ProjectGithubLink:"https://github.com/cerna234/BitcoinConverter",
         alt:"Preview of Bitcoin Converter",
     },
-    {
-
-        ProjectName:"3D Unity Game",
-        ProjectUrl:`${Game}`,
-        ProjectDescription:"3D Unity group project built by 4 developers for senior project. Project was built using Unity, C#, Blender",
-        alt:"Preview of 3D unity Game",
-
-        
-    },
-    {
-
-        ProjectName:"RGA Tint Shop",
-        ProjectUrl:`${RGA}`,
-        ProjectDescription:"Vehicle window tint Website created for client of a local Business Using Html,Css,and Javascript",
-        ProjectLiveUrl:"https://cerna234.github.io/RGSTintShop/",
-        ProjectGithubLink:"https://github.com/cerna234/RGSTintShop",
-        alt:"Preview of RGA Tint Shop Website",
-       
-    },
+  
+    
     
    
 
-    {
-
-        ProjectName:"CFCS",
-        ProjectUrl:`${Cfcs}`,
-        ProjectDescription:"Car Dealership website built for school project developed using the mern stack built by 4 developers which used git and github for version control  ",
-        ProjectLiveUrl:"https://carsforcollegestudents.netlify.app/",
-        ProjectGithubLink:"https://github.com/brianx009/CFCS",
-        alt:"Preview of CFCS Website",
-       
-    },
-    {
-
-        ProjectName:"kunna-tenshi-teppan",
-        ProjectUrl:`${KNT}`,
-        ProjectDescription:"Catering website for client built by 3 developers which was developed using React, Styled-Components, Jsx. Git and Github was used for version control and Figma was used for design.",
-        ProjectLiveUrl:"",
-        ProjectGithubLink:"https://github.com/cerna234/kunna-tenshi-teppan",
-        alt:"Preview of Kunna-Tenshi_Teppan Website",
-
-        
-    },
+   
     
-    {
-
-        ProjectName:"Cielito Lindo",
-        ProjectUrl:`${Clindo}`,
-        ProjectDescription:"Mexican Restaurant Website created for client Using Html,Css,and Javascript",
-        ProjectLiveUrl:"https://www.clindo.net/",
-        ProjectGithubLink:"https://github.com/cerna234/cielitolindo",
-        alt:"Preview of Cielito Lindo Website",
-
-        
-    },
+    
     {
 
         ProjectName:"ISS-Api",
@@ -163,38 +138,18 @@ export const Project = [
     },
     {
 
-        ProjectName:"Amplify Web App",
-        ProjectUrl:`${Amplify}`,
-        ProjectDescription:"CSUSB Hackathon Webapp built using React.js and AWS Amplify",
-        ProjectLiveUrl:"https://main.d2ap8z0pq8e7se.amplifyapp.com",
-        ProjectGithubLink:"https://github.com/Paink64/Chimera",
-        alt:"Preview of Amplify Web app",
+        ProjectName:"Cielito Lindo",
+        ProjectUrl:`${Clindo}`,
+        ProjectDescription:"Mexican Restaurant Website created for client Using Html,Css,and Javascript",
+        ProjectLiveUrl:"https://www.clindo.net/",
+        ProjectGithubLink:"https://github.com/cerna234/cielitolindo",
+        alt:"Preview of Cielito Lindo Website",
 
         
     },
-    {
-
-        ProjectName:"TIC TAC TOE game prototype",
-        ProjectUrl:`${TTTgame}`,
-        ProjectDescription:"Simple game of tic tac toe built with html,css, and javascript",
-        ProjectLiveUrl:"https://cerna234.github.io/Tic-Tac-Toe/",
-        ProjectGithubLink:"https://github.com/cerna234/Tic-Tac-Toe",
-        alt:"Preview of Tic Tac toe Program",
-        
-
-        
-    },
-    {
-
-        ProjectName:"Simply Blended",
-        ProjectUrl:`${SB}`,
-        ProjectDescription:"Mock website for local business using html css and javascript",
-        ProjectLiveUrl:"https://cerna234.github.io/SimplyBlended/",
-        ProjectGithubLink:"https://github.com/cerna234/SimplyBlended",
-        alt:"Preview of Simply Blended Website",
-
-        
-    },
+   
+    
+   
 
 
     

@@ -15,7 +15,8 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     padding-top: 40px;
-    min-height:600px
+    min-height:600px;
+    
 
 `
 
@@ -32,18 +33,21 @@ const ProjectContainer = styled.div`
         position: relative;
         
         
+        
+        
+        
 
         .GridItem{
             position: relative;
             width: 100%;
             position: relative;
-            height: 60vh;
+            height: 90vh;
             ${Horizontal({height:"200vh"})}
            font-size: 30px;
-           
+           min-height: 300px;
            display: flex;
            flex-direction: column;
-           
+          
            align-items: center;
            
            
@@ -152,7 +156,7 @@ const Projects = (props) =>{
        
          <p className="ProjectName">{d.ProjectName}</p>
          <div alt={d.alt} className="projectImage" style={{backgroundImage: "url(" + d.ProjectUrl + ")"}}><a className="ImageLink" target="_blank" href={d.ProjectLiveUrl}></a></div>
-         <p>{d.ProjectDescription}</p>
+         <p style={{height:"50%"}}>{d.ProjectDescription}</p>
 
          <Links>
             <a target="_blank" href={d.ProjectLiveUrl}><VscInspect/></a>
