@@ -41,7 +41,7 @@ const ProjectContainer = styled.div`
             position: relative;
             width: 100%;
             position: relative;
-            height: 90vh;
+            height: 70vh;
             ${Horizontal({height:"200vh"})}
            font-size: 30px;
            min-height: 300px;
@@ -51,7 +51,7 @@ const ProjectContainer = styled.div`
            align-items: center;
            
            
-           ${Desktop({width:"90%",height:"70vh"})};
+           ${Desktop({width:"90%",height:"80vh"})};
 
 
            p{
@@ -59,6 +59,7 @@ const ProjectContainer = styled.div`
                padding-top: 20px;
                padding-bottom: 20px;
                font-size: 10px;
+             
                ${Desktop({fontSize:"15px"})};
                width: 80%;
                text-align: center;
@@ -86,7 +87,7 @@ const ProjectContainer = styled.div`
         .projectImage{
             width: 80%;
             position: relative;
-        
+            background-size:cover;
             height: 200px;
             ${Desktop({height:"500px"})};
             box-shadow: 5px 4px 7px #131313d8;
