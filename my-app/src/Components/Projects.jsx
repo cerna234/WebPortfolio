@@ -47,9 +47,10 @@ const ProjectContainer = styled.div`
             height: 100%;
             padding-top:30px;
            font-size: 30px;
-           min-height: 300px;
+           min-height: 700px;
            display: flex;
            flex-direction: column;
+          
           
            align-items: center;
            
