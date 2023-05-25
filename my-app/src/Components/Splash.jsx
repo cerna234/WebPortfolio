@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Desktop} from '../responsive'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import MainColor from "../variables";
-
+import { motion } from "framer-motion"
 
 
 
@@ -32,6 +32,7 @@ const BackText = styled.div`
         position: absolute;
         top: 30vh;
         color: #5251511f;
+        overflow-x:hidden;
     }
 
 
@@ -92,11 +93,34 @@ const Splash = () => {
            </BackText>
 
            <MainInfo>
-               <p>I'm a</p>
-               <h1>SOFTWARE</h1>
-               <h1>DEVELOPER</h1>
-               <h5><Link to="/contact">CONTACT ME </Link></h5>
+                    <motion.div
+                        initial={{x:-100}}
+                        whileInView={{ x: 0 }}
+                        transition={{duration: .6}}
+                    >
+                        <motion.p
+                            initial={{y:-100}}
+                            whileInView={{ y: 0 }}
+                            transition={{duration: .8}}
+                        >I'm a
+                        </motion.p>
+                        <h1>SOFTWARE</h1>
+                        <h1>DEVELOPER</h1>
+
+                    </motion.div>
+                    
+                    <motion.h5
+                         initial={{x:100}}
+                         whileInView={{ x: 0 }}
+                         transition={{duration: .9}}
+                    >
+                    <Link to="/contact">CONTACT ME </Link>
+                    </motion.h5>
+
+
+               
            </MainInfo>
+
 
           
            

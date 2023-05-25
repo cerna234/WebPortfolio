@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Desktop,Horizontal} from '../responsive'
 import Title from "./Title";
 import MainColor from "../variables";
-
+import { motion } from "framer-motion"
 const Container = styled.div`
     width: 100%;
     height: 100%;
@@ -88,8 +88,13 @@ const About = () =>{
     return(
         
         <Container>
-            
+            <motion.div
+                initial={{x:100}}
+                whileInView={{ x: 0 }}
+                transition={{duration: 1}}
+            >
               <Info>
+            
                     <TopSection>
                         <p>Software Developer with years of experience bringing expertise in design, testing, and maintenance of software systems. Equipped with a diverse skill set and proficient in  various languages and systems. 3 years experience with various client work and real world projects </p>
                     </TopSection>
@@ -107,6 +112,7 @@ const About = () =>{
                         </div>
                     </BottomSection>
               </Info>
+              </motion.div>
 
               
 
