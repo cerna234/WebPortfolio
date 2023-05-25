@@ -11,7 +11,7 @@ import Title from '../Components/Title'
  ${Horizontal({height:"200vh"})};
  background-color: #232323;
  display: flex;
-
+ overflow-x:hidden;
  min-height:600px;
 
 

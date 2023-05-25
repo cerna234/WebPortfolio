@@ -20,6 +20,7 @@ width: 100%;
 height: 100%;
 background-color: #242424;
 margin-top: 0;
+overflow-x:hidden;
 
 
 `

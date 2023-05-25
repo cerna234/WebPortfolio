@@ -11,6 +11,7 @@ const Container = styled.div`
     height: 100%;
     background-color: #232323;
     padding-top: 20vh;
+    overflow-x:hidden;
 
    
 

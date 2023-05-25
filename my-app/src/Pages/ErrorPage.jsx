@@ -14,6 +14,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow-x:hidden;
 
     h2{
         font-size: 20px;
