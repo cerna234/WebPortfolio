@@ -5,6 +5,7 @@ import {Project} from '../Data'
 import {FaGithub,FaCode} from "react-icons/fa"
 import { VscInspect} from "react-icons/vsc";
 import MainColor from "../variables";
+import { motion } from "framer-motion"
 
 
 const Container = styled.div`
@@ -36,13 +37,15 @@ const ProjectContainer = styled.div`
         
         
         
+        
+        
 
         .GridItem{
             position: relative;
             width: 100%;
             position: relative;
-            height: 70vh;
-            ${Horizontal({height:"200vh"})}
+            height: 100%;
+            padding-top:30px;
            font-size: 30px;
            min-height: 300px;
            display: flex;
@@ -54,30 +57,30 @@ const ProjectContainer = styled.div`
            ${Desktop({width:"90%",height:"80vh"})};
 
 
-           p{
-               color: #c5c4c4;
-               padding-top: 20px;
-               padding-bottom: 20px;
-               font-size: 10px;
-             
-               ${Desktop({fontSize:"15px"})};
-               width: 80%;
-               text-align: center;
-              
-               position: relative;
-               text-shadow: 5px 5px 5px #222;
-               
-             
-           }
+           
           
            .ProjectName{
-               font-size: 18px;
+               font-size: 16px;
                font-weight: bold;
+               
                color: white;
-               ${Desktop({fontSize:"30px"})};
+               height:50px;
+               width:80%;
+               ${Desktop({fontSize:"27px",height:"400px"})};
+               text-align:center;
            }
 
+           .projectDescription{
+            height:20vh;
+            font-size:10px;
+            ${Desktop({fontSize:"12px",height:"100vh"})}
+            width:80%;
+            padding-top: 40px;
+            color: rgb(230, 230, 230);
+            font-weight: bold;
+            
            
+           }
 
            
         }
@@ -89,10 +92,10 @@ const ProjectContainer = styled.div`
             position: relative;
             background-size:cover;
             height: 200px;
-            ${Desktop({height:"500px"})};
+            ${Desktop({height:"1000px",backgroundPosition: "cover"})};
             box-shadow: 5px 4px 7px #131313d8;
             background-size: cover;
-            background-position: center;
+            
 
 
             a{
@@ -114,6 +117,7 @@ const Links = styled.div`
     justify-content: space-evenly;
     width: 60%;
     position: relative;
+    padding-bottom: 20px;
    
 
     a{
@@ -143,37 +147,44 @@ const Projects = (props) =>{
         <Container>
            
        
-        
-           <ProjectContainer>
+            <motion.div
+                initial={{y: -500,opacity:0}}
+                whileInView={{y: 0, opacity:100 }}
+                transition={{duration: 1}}
+            >
+            <ProjectContainer>
 
-           
-        {Project.slice(props.start,props.end).map((d, idx) =>{
-     return (
+                    
+            {Project.slice(props.start,props.end).map((d, idx) =>{
+            return (
 
-     <div className="contain"  key={idx}>
-         
-        <div className="GridItem">
-
-       
-         <p className="ProjectName">{d.ProjectName}</p>
-         <div alt={d.alt} className="projectImage" style={{backgroundImage: "url(" + d.ProjectUrl + ")"}}><a className="ImageLink" target="_blank" href={d.ProjectLiveUrl}></a></div>
-         <p style={{height:"50%"}}>{d.ProjectDescription}</p>
-
-         <Links>
-            <a target="_blank" href={d.ProjectLiveUrl}><VscInspect/></a>
-            <a target="_blank" href={d.ProjectGithubLink}><FaGithub/></a>
-         </Links>
+            <div className="contain"  key={idx}>
+            
+            <div className="GridItem">
 
 
-         </div>
-         
-      
-     
-     </div>
-    
-     )
-   })}
-   </ProjectContainer>
+            <p className="ProjectName">{d.ProjectName}</p>
+            <div alt={d.alt} className="projectImage" style={{backgroundImage: "url(" + d.ProjectUrl + ")"}}><a className="ImageLink" target="_blank" href={d.ProjectLiveUrl}></a></div>
+            <p className="projectDescription">{d.ProjectDescription}</p>
+
+            <Links>
+                <a target="_blank" href={d.ProjectLiveUrl}><VscInspect/></a>
+                <a target="_blank" href={d.ProjectGithubLink}><FaGithub/></a>
+            </Links>
+
+
+            </div>
+            
+
+
+            </div>
+
+            )
+            })}
+            </ProjectContainer>
+
+            </motion.div>
+          
 
   
   

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Desktop,Horizontal} from '../responsive'
 import Title from "./Title";
 import {skills} from '../Data';
-
+import { motion } from "framer-motion"
 const Container = styled.div`
     width: 100%;
     height: 100vh;
@@ -62,14 +62,18 @@ const Skills = () =>{
       {skills.map((d, idx) =>{
          return (
 
-         <div className="GridItem" key={idx}>
+         <motion.div
+         initial={{x:-100,opacity:0}}
+         whileInView={{ x: 0,opacity:100 }}
+         transition={{duration: 1}}
+         className="GridItem" key={idx}>
              
             
              <p>{d.name}</p>
              
           
          
-         </div>
+         </motion.div>
         
          )
        })}
