@@ -16,6 +16,7 @@ import Amplify from "./Images/AmplifyWebApp.png"
 import F1 from "./Images/f1Website.png"
 import NASAWEBAPP from "./Images/NasaAPI.png"
 import Vertex from "./Images/Vertex.png"
+import Porsche from "./Images/Porsche.png"
 
 export const skills = [
     {
@@ -73,6 +74,16 @@ export const Project = [
 
         ProjectName:"Full Stack Social Media WebApp",
         ProjectUrl:`${socialMedia}`,
+        ProjectDescription:"The mock Porsche website, built with Next.js, incorporates smooth animations to enhance user interaction and provide a visually appealing way to explore Porsche's car lineup, demonstrating the technical capabilities of Next.js for creating engaging websites.",
+        ProjectLiveUrl:"https://mockporschewebsite.netlify.app/",
+        ProjectGithubLink:"https://github.com/cerna234/mockPorscheWebsite",
+        alt:"Preview of Mock Porshce Website",
+       
+    },
+    {
+
+        ProjectName:"Mock Porsche Website",
+        ProjectUrl:`${Porsche}`,
         ProjectDescription:"Dynamic social media platform created using React, Express, and Node.js.Allows users to easily sign up, establish their unique profiles, and create posts to share. The site also features a trending page, highlighting the most popular posts among the user base.The social media site leverages the robust Amazon S3 bucket service to facilitate seamless image uploading.",
         ProjectLiveUrl:"https://mcsocialmedia.netlify.app/",
         ProjectGithubLink:"https://github.com/cerna234/socialMediaFE",
