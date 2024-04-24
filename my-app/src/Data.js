@@ -17,6 +17,7 @@ import F1 from "./Images/f1Website.png"
 import NASAWEBAPP from "./Images/NasaAPI.png"
 import Vertex from "./Images/Vertex.png"
 import Porsche from "./Images/Porsche.png"
+import AutomationTool from "./Images/automationTool.png"
 
 export const skills = [
     {
@@ -72,10 +73,20 @@ export const skills = [
 export const Project = [
     {
 
+        ProjectName:"Automation tool",
+        ProjectUrl:`${AutomationTool}`,
+        ProjectDescription:"Recognizing the potential for improvement in companies  testing process, I spearheaded the automation process using C#, SQL Management Server, and FLAUI framework. This solution not only automated tests but also alleviated the burden of manual effort by generating Excel reports for easy review. Integrated with Slack, it ensured seamless communication and kept the team updated on testing progress and issues. This transformation significantly reduced reliance on manual testing, allowing us to focus on more strategic tasks and ultimately improving our efficiency and effectiveness.(Note: Certain aspects have been blurred per company data privacy)",
+        ProjectLiveUrl:"https://drive.google.com/file/d/1XbW0lsmdgmIE-ma_VxRy6LhMzvdT3d6b/view?usp=sharing",
+        ProjectGithubLink:"https://github.com/cerna234/socialMediaFE",
+        alt:"Preview of Social media Webapp",
+       
+    },
+    {
+
         ProjectName:"Full Stack Social Media WebApp",
         ProjectUrl:`${socialMedia}`,
         ProjectDescription:"Dynamic social media platform created using React, Express, and Node.js.Allows users to easily sign up, establish their unique profiles, and create posts to share. The site also features a trending page, highlighting the most popular posts among the user base.The social media site leverages the robust Amazon S3 bucket service to facilitate seamless image uploading.",
-        ProjectLiveUrl:"https://mockporschewebsite.netlify.app/",
+        ProjectLiveUrl:"https://mcsocialmedia.netlify.app/",
         ProjectGithubLink:"https://github.com/cerna234/socialMediaFE",
         alt:"Preview of Social media Webapp",
        
