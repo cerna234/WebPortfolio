@@ -83,12 +83,32 @@ export const Project = [
     },
     {
 
+        ProjectName:"Formula 1 Website",
+        ProjectUrl:`${F1}`,
+        ProjectDescription:"Full Stack Formula 1 Website made with Node.js, React.js, Express.js, mysql. FrontEnd hosted on Netlifly, Backend hosted on heroku",
+        ProjectLiveUrl:"https://mcf1website.netlify.app/",
+        ProjectGithubLink:"https://github.com/cerna234/F1Website",
+        alt:"Preview of f1 Website",
+       
+    },
+    {
+
         ProjectName:"Full Stack Social Media WebApp",
         ProjectUrl:`${socialMedia}`,
         ProjectDescription:"Dynamic social media platform created using React, Express, and Node.js.Allows users to easily sign up, establish their unique profiles, and create posts to share. The site also features a trending page, highlighting the most popular posts among the user base.The social media site leverages the robust Amazon S3 bucket service to facilitate seamless image uploading.",
         ProjectLiveUrl:"https://mcsocialmedia.netlify.app/",
         ProjectGithubLink:"https://github.com/cerna234/socialMediaFE",
         alt:"Preview of Social media Webapp",
+       
+    },
+    {
+
+        ProjectName:"NASA API WEB APP",
+        ProjectUrl:`${NASAWEBAPP}`,
+        ProjectDescription:" Website where users can view over 10,000 Objects near earth and view object id, name, magnitude, estimated diameter, and threat indicator. Users can view Images taken by rovers on mars and query data by Rover Camera Using NASA opensource Api's",
+        ProjectLiveUrl:"https://mcnasadata.netlify.app/",
+        ProjectGithubLink:"https://github.com/cerna234/NasaApiWebApp",
+        alt:"Preview of Nasa Api Web App",
        
     },
     {
@@ -111,26 +131,8 @@ export const Project = [
         alt:"Preview of Social media Webapp",
        
     },
-    {
-
-        ProjectName:"NASA API WEB APP",
-        ProjectUrl:`${NASAWEBAPP}`,
-        ProjectDescription:" Website where users can view over 10,000 Objects near earth and view object id, name, magnitude, estimated diameter, and threat indicator. Users can view Images taken by rovers on mars and query data by Rover Camera Using NASA opensource Api's",
-        ProjectLiveUrl:"https://mcnasadata.netlify.app/",
-        ProjectGithubLink:"https://github.com/cerna234/NasaApiWebApp",
-        alt:"Preview of Nasa Api Web App",
-       
-    },
-    {
-
-        ProjectName:"Formula 1 Website",
-        ProjectUrl:`${F1}`,
-        ProjectDescription:"Full Stack Formula 1 Website made with Node.js, React.js, Express.js, mysql. FrontEnd hosted on Netlifly, Backend hosted on heroku",
-        ProjectLiveUrl:"https://mcf1website.netlify.app/",
-        ProjectGithubLink:"https://github.com/cerna234/F1Website",
-        alt:"Preview of f1 Website",
-       
-    },
+ 
+   
     {
         ProjectName:"Bitcoin Converter",
         ProjectUrl:`${BC}`,
